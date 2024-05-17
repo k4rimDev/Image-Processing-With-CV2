@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 
 # Load image 
-image = cv2.imread('images/chess.jpg')
+image = cv2.imread('../images/chess.jpg')
 # Grayscaling
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 plt.figure(figsize=(10, 10))

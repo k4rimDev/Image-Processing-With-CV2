@@ -3,7 +3,7 @@ from matplotlib import pyplot as plt
 import numpy as np
 
 
-image = cv2.imread('images/building.jpeg')
+image = cv2.imread('../images/building.jpeg')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 plt.figure(figsize=(20, 20))
 plt.subplot(1, 2, 1)

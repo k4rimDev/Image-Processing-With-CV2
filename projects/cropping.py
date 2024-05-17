@@ -2,7 +2,7 @@ import cv2
 from matplotlib import pyplot as plt
 import numpy as np
 
-image = cv2.imread('images/messi.jpeg')
+image = cv2.imread('../images/messi.jpeg')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
 height = 300
